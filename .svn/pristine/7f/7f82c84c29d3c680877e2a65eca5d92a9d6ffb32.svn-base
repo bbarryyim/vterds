@@ -1,0 +1,28 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package vterds;
+
+/**
+ *
+ * @author Joanne
+ */
+public class Election {
+    String date;
+    String status;
+    String LastLogin;
+    
+    public String getDate(){
+        return date;
+    }
+    
+    public String getStatus(){
+        return status;
+    }
+    
+    public String getLastLogin(){
+        /* the rest of the function is missing here, just placeholder that will return result at the end*/
+        return LastLogin;
+    }
+}

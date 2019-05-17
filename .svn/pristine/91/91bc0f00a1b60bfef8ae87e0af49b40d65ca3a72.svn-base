@@ -1,0 +1,51 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package vterds;
+
+/**
+ *
+ * @author Peterson
+ */
+
+//import from Election Class for Date, Location, Status
+//import java.sql.Connection;
+//import java.sql.DriverManager;
+//import java.sql.Statement;
+//import java.io
+
+public class SearchSummary {
+/* string Riding_Name;
+ * string Party_Name;
+ * int numVoters;
+ * int numSeats;
+ * int numCandidates;
+ * int numIncumbents;
+ * IncumbentParty_Name
+ * dateCreated
+ * 
+Statement stat = conn.createStatement();
+String query = “<string to be used in search>”;
+Statement stat = conn.createStatement();
+Resultset result = stat.executeQuery(“SELECT * FROM <table name>”);
+ 
+    public getInputKey(){
+        Riding_Name = <>;
+        Party_Name = <>;
+        numVoters = <>;
+        numSeats = <>;
+        numCandidates = <>;
+        numIncumbents = <>;
+    } 
+    
+    public getReportType(){
+        
+    }
+    
+    public genSearchResults(){
+        
+    }
+     * 
+     */
+}

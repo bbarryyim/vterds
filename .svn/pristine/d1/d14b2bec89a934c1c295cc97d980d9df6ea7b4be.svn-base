@@ -1,0 +1,19 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package vterds;
+
+/**
+ *
+ * @author pja9
+ */
+public class Candidates {
+    //Declaring Variables
+    String Candidate_name;
+    String Party;
+    Boolean Is_incumbent;
+    
+    
+    
+}

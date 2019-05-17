@@ -1,0 +1,25 @@
+Hi All,
+
+On Windows, I used SLIKSVN - http://www.sliksvn.com/en/download 
+and followed the instructions in the Basic Usage section in the manual at: http://svnbook.red-bean.com/en/1.7/svn-book.html#svn.tour
+
+After installing SLIKSVN, run the command, 'svn checkout https://punch.cs.sfu.ca/svn/CMPT275-1121-g-group1' in your command line. This will pull the repo hosting our group's files. Make the changes to the document. Run the command 'svn update' and note the revision number. Next, run the command 'svn commit -m "xxxx"' ("xxxx" is a text indicating what you changed). Your modified data will be pushed to the server. Lastly, run 'svn update' to ensure that the revision specified is greater than it was initially, and 'svn log' to see your changes in the project log.
+
+There's more to this, but this is all we need for now.
+
+Best,
+
+Gautham
+
+Note-
+
+If you have issues executing svn commands in your command line, please make sure that the PATH points to the "bin" directory in your SlikSVN installation:
+
+Windows 7
+=========
+Select Computer from the Start menu
+Choose System Properties from the context menu
+Click Advanced system settings > Advanced tab
+Click on Environment Variables, under System Variables, find PATH, and click on it.
+In the Edit windows, modify PATH by adding the location of the "bin" directory of your local SlikSVN installation (C:\Program Files\SlikSvn\bin) in my case.
+Reopen Command prompt window, and run your svn commands.

@@ -1,0 +1,60 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package vterds;
+/**
+ *
+ * @author Peterson
+ */
+//import from Election Class for Date, Location, Status
+//import java.util.*;
+
+
+public class SearchSummary {
+//Variables accessed by the SearchSummary Class
+    private String Riding_Name;
+    private String Party_Name;
+    private String IncumbentParty_Name;
+    int numVoters;
+    int numSeats;
+    int numCandidates;
+    int numIncumbents;
+    char dateCreated;
+    
+    public String reportType;
+
+    public int setInputKey(){
+ //grabs the input from user base on the different text field, if the field is 
+ //empty then NULL. returns 1 if set is successful
+        Riding_Name = "Vancouver";
+        Party_Name = "Green";
+        IncumbentParty_Name = "NDP";
+        numVoters = 260;
+        numSeats = 15;
+        numCandidates = 30;
+        numIncumbents = 5;
+        return 1;
+    } 
+    public int setReportType(){
+//grabs the user selection and assigns reportType to either Summary,
+//Elected, or Predicted. returns 1 if set is successful
+        
+        
+        return 1;
+    }
+    
+    public void genSearchResults(){
+//main search function here should return results base on high relevance. 
+//no value is returned search loop will terminate on its own
+        
+    }
+    
+//For Generate Report
+    
+    
+    
+    
+    
+    
+}
